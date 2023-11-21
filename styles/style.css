@@ -41,27 +41,37 @@ header{
 
 }
 .signin{
-    position: absolute;
-    margin-left: 90vw;
-    margin-bottom: 7vh;
     width: 7vw;
     height: 3.5vh;
     background: #2D353D;
     text-align: center;
+    position: absolute;
+    margin-left: 90vw;
+    
 }
-.signin>a{
+.signin>div{
     border: none;
     cursor: pointer;
     text-decoration: none;
     color: white;
+    font-size: 0.75em;
 
 }
 .signin:hover{
     background: #ece4b7;
     transition: all 0.5s;
 }
+.head__cont{
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
 .title{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 section{
     width: 100%;
